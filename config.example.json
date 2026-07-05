@@ -1,0 +1,35 @@
+{
+  "reddit": {
+    "client_id": "YOUR_REDDIT_CLIENT_ID",
+    "client_secret": "YOUR_REDDIT_CLIENT_SECRET",
+    "user_agent": "ProjectScout/1.0 by /u/yourusername"
+  },
+  "github": {
+    "access_token": "YOUR_GITHUB_TOKEN"
+  },
+  "hackernews": {
+    "api_url": "https://hn.algolia.com/api/v1"
+  },
+  "ai": {
+    "provider": "anthropic",
+    "api_key": "YOUR_ANTHROPIC_API_KEY"
+  },
+  "settings": {
+    "max_discussions_per_source": 50,
+    "time_range_months": 3,
+    "cache_enabled": true,
+    "cache_duration_hours": 24,
+    "subreddits": [
+      "SomebodyMakeThis",
+      "AppIdeas",
+      "Entrepreneur",
+      "SideProject"
+    ],
+    "search_keywords": [
+      "wish there was",
+      "need a tool",
+      "why isn't there",
+      "looking for software"
+    ]
+  }
+}
