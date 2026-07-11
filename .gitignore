@@ -38,3 +38,8 @@ cache/
 .env.local
 config.json
 config.local.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
