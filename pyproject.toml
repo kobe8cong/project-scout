@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "project-scout"
+version = "1.0.0"
+description = "Offline-first evidence pipeline for project opportunity discovery"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "anthropic>=0.52.0",
+]
+
+[project.optional-dependencies]
+live = [
+  "praw>=7.7.0",
+  "PyGithub>=2.1.1",
+  "requests>=2.31.0",
+]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+project-scout = "project_scout.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/project_scout"]

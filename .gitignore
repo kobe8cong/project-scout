@@ -1,6 +1,10 @@
 # Generated reports
 project-scout-report.md
 project-scout-report-*.md
+project-scout-handoffs/
+project-scout-bundle.json
+pain_points.json
+scraped_data.json
 
 # Draft reports
 .project-scout-draft/
@@ -29,7 +33,8 @@ temp/
 .cache/
 cache/
 
-# API keys (if any config files added later)
+# API keys and local configuration
 .env
 .env.local
+config.json
 config.local.json

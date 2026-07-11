@@ -1,0 +1,34 @@
+[
+  {
+    "source": "reddit",
+    "title": "I wish there was a lightweight API documentation tool",
+    "content": "Maintaining API docs manually wastes hours every release.",
+    "url": "https://example.test/reddit/api-docs",
+    "upvotes": 32,
+    "comments": 8
+  },
+  {
+    "source": "hackernews",
+    "title": "Ask HN: need a better way to automate release notes",
+    "content": "Our team needs a workflow to generate release notes from commits.",
+    "url": "https://example.test/hn/release-notes",
+    "points": 20,
+    "comments": 14
+  },
+  {
+    "source": "github",
+    "title": "Feature request: automate changelog creation",
+    "content": "Please add an automated changelog tool; manual releases are painful.",
+    "url": "https://example.test/github/changelog",
+    "reactions": 11,
+    "comments": 7
+  },
+  {
+    "source": "github",
+    "title": "Feature request: automate changelog creation",
+    "content": "Please add an automated changelog tool; manual releases are painful.",
+    "url": "https://example.test/github/changelog",
+    "reactions": 11,
+    "comments": 7
+  }
+]
